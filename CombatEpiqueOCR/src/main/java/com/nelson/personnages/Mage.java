@@ -14,7 +14,7 @@ public class Mage extends Personnage {
     }
 
     /**
-     * used for tests
+     * utilisés pour les tests
      *
      * @param niveau
      * @param force
@@ -29,10 +29,10 @@ public class Mage extends Personnage {
     }
 
     /**
-     * take vitality points up, but less or equal than vitalityMax, and say so.
+     * accroit les point de vitalité, mais <= à vitaliteMax, et fait le point.
      *
-     * @param adversaire
-     * @return this flash message
+     * @param adversaire valeur personnage adverse
+     * @return bref message de mise au point
      */
     @Override
     public String actionAttaqueSpeciale(Personnage adversaire) {

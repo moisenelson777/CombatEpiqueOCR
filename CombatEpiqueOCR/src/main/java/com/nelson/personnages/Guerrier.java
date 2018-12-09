@@ -11,7 +11,7 @@ public class Guerrier extends Personnage {
     }
 
     /**
-     * used for tests
+     * utilisés pour les tests
      *
      * @param niveau
      * @param force
@@ -23,11 +23,11 @@ public class Guerrier extends Personnage {
     }
 
     /**
-     * take vitality points down and say so.
-     * Take enemy vitality down by strength * 2 and say so.
+     * cause des dommages et fait le point.
+     * reduit la vitalité de l'adversaire de la force * 2 and et fait le point.
      *
-     * @param enemy
-     * @return this flash message
+     * @param adversaire valeur personnage adverse
+     * @return bref message de mise au point
      */
     @Override
     public String actionAttaqueSpeciale(Personnage adversaire) {

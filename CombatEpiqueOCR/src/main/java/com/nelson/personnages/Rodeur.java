@@ -11,7 +11,7 @@ public class Rodeur extends Personnage {
     }
 
     /**
-     * used for tests
+     * utilisés pour les tests
      *
      * @param niveau
      * @param force
@@ -24,10 +24,10 @@ public class Rodeur extends Personnage {
     }
 
     /**
-     * take skills points up and say so.
+     * Augmente les points d'agilité et fait le point.
      *
-     * @param adversaire
-     * @return this flash message
+     * @param adversaire valeur personnage adverse
+     * @return bref message de mise au point
      */
     @Override
     public String actionAttaqueSpeciale(Personnage adversaire) {

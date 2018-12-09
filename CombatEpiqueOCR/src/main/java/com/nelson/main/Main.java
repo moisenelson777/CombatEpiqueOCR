@@ -14,11 +14,11 @@ public class Main {
      * specifications. Enjoy.
      */
     public static void main(String[] args) {
-        // Characters init
+        // Instanciation des personnages
         Personnage  P1 = new Guerrier(0,0,0,0);
         Personnage  P2 = new Mage(0,0,0,0);
 
-        // Characters hydratation
+        // Génération des personnages
         System.out.println("Création du personnage du Joueur 1");
         switch(Personnage.choixTypePersonnage())
         {
@@ -47,7 +47,7 @@ public class Main {
                 break;
         }
 
-        // Characters fight
+        // Combat des personnages
         P1.combattre(P2);
     }
 }
